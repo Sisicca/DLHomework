@@ -60,9 +60,13 @@ project/
 
 本项目使用UV进行环境管理。如果你还没有安装UV，可以按照[UV官方文档](https://github.com/astral-sh/uv)进行安装。
 
-1. 创建虚拟环境并安装依赖:
+1. 克隆仓库、创建虚拟环境、安装依赖:
 
 ```bash
+# 克隆仓库
+git clone https://github.com/Sisicca/DLHomework
+cd DLHomework
+
 # 创建虚拟环境
 uv venv -p 3.10
 
@@ -78,8 +82,7 @@ uv run hello.py
 
 ## 数据集
 
-本项目使用CIFAR-10数据集，包含10个类别的60,000张32x32彩色图像，其中50,000张用于训练，10,000张用于测试。
-
+本项目使用CIFAR-10数据集，包含10个类别的60,000张32x32彩色图像，其中50,000张用于训练，10,000张用于测试。请自行下载[CIFAR-10数据集](https://www.cs.toronto.edu/~kriz/cifar.html)，解压并放置在项目根目录下。
 数据集目录结构:
 
 ```
