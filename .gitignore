@@ -16,3 +16,5 @@ results/*.npy
 results/*.pkl
 results/*.zip
 
+.DS_Store
+
